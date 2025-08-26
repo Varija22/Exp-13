@@ -34,3 +34,43 @@ Algorithm:
 Conclusion:
 The program successfully demonstrates how different constructors work in C++. The default constructor assigns a default value, the parameterized constructor assigns a user-defined value, and the copy constructor creates a new object with the same value as an existing object. This helps in understanding object initialization and copying in C++.
 
+Program 2
+Sure! Here are the full sections for your program:
+Aim:
+To demonstrate constructor overloading in C++ by creating multiple constructors with different numbers of parameters and initializing objects accordingly.
+
+Software Used:
+Programiz online C++ compiler.
+
+Theory:
+Constructor overloading in C++ allows a class to have more than one constructor with different parameter lists. This enables objects to be initialized in different ways. The compiler determines which constructor to invoke based on the number and types of arguments passed when an object is created.
+
+In this program, the class `Fetch` has three constructors:
+
+* A default constructor (no parameters) that initializes `num` to 0.
+* A parameterized constructor that accepts one integer and assigns it to `num`.
+* Another parameterized constructor that accepts two integers and assigns their sum to `num`.
+
+The `disp()` method displays the value of `num` for each object.
+
+Algorithm:
+
+1. Define a class `Fetch` with a private integer member variable `num`.
+2. Create three constructors:
+
+   * A default constructor that sets `num` to 0.
+   * A constructor that takes one integer and assigns it to `num`.
+   * A constructor that takes two integers and assigns their sum to `num`.
+3. Define a method `disp()` to print the value of `num`.
+4. In the `main()` function:
+
+   * Create an object `f1` using the default constructor.
+   * Create an object `f2` using the one-parameter constructor.
+   * Create an object `f3` using the two-parameter constructor.
+5. Call the `disp()` method for each object to display their values.
+
+Conclusion:
+The program successfully demonstrates constructor overloading by using multiple constructors with different parameters to initialize objects in various ways. This feature enhances flexibility in object creation and initialization in C++.
+
+
+
