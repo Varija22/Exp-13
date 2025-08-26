@@ -35,7 +35,7 @@ Conclusion:
 The program successfully demonstrates how different constructors work in C++. The default constructor assigns a default value, the parameterized constructor assigns a user-defined value, and the copy constructor creates a new object with the same value as an existing object. This helps in understanding object initialization and copying in C++.
 
 Program 2
-Sure! Here are the full sections for your program:
+
 Aim:
 To demonstrate constructor overloading in C++ by creating multiple constructors with different numbers of parameters and initializing objects accordingly.
 
@@ -71,6 +71,42 @@ Algorithm:
 
 Conclusion:
 The program successfully demonstrates constructor overloading by using multiple constructors with different parameters to initialize objects in various ways. This feature enhances flexibility in object creation and initialization in C++.
+
+
+Program 3
+
+Aim:
+To demonstrate constructor overloading in C++ by defining multiple constructors with different parameters to initialize objects differently.
+
+Software Used:
+Programiz online C++ compiler.
+
+Theory:
+Constructor overloading in C++ allows a class to have more than one constructor with different parameter lists. This enables objects to be initialized in various ways depending on the arguments passed during object creation.
+
+In this program, the class `Fetch` has two constructors:
+
+* A constructor with one parameter that initializes `num` with the given value.
+* A constructor with two parameters that initializes `num` as the sum of both parameters.
+
+The `disp()` method outputs the value of `num` for each object.
+
+Algorithm:
+
+1. Create a class `Fetch` with a private integer variable `num`.
+2. Implement a constructor that accepts one integer and assigns it to `num`.
+3. Implement an overloaded constructor that accepts two integers and assigns their sum to `num`.
+4. Create a `disp()` function to display the value of `num`.
+5. In `main()`, create two objects:
+
+   * `f1` with a single integer argument.
+   * `f2` with two integer arguments.
+6. Call the `disp()` function on both objects to print their values.
+
+Conclusion:
+The program successfully shows how constructor overloading works in C++. It illustrates how multiple constructors with different parameter lists can be used to initialize objects differently, increasing the flexibility of object creation.
+
+
 
 
 
