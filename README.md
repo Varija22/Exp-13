@@ -3,15 +3,15 @@ Program 1
 Aim:
 To demonstrate the concept of constructors in C++, including the default constructor, parameterized constructor, and copy constructor.
 
-Software Used:**
+Software Used:
 Programiz online C++ compiler and IDE.
 
 Theory:
 Constructors are special member functions in C++ used to initialize objects. There are several types of constructors:
 
-* Default Constructor:** Initializes an object with default values.
-* Parameterized Constructor:** Initializes an object with user-defined values.
-* Copy Constructor:** Creates a new object as a copy of an existing object.
+* Default Constructor: Initializes an object with default values.
+* Parameterized Constructor:Initializes an object with user-defined values.
+* Copy Constructor:Creates a new object as a copy of an existing object.
 
 In the given program, these constructors initialize the integer member `num` of the class `fetch` in different ways. The `disp()` method is used to display the value of `num`.
 
